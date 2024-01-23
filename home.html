@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños</title>
+    <link rel="icon" href="/imgs/icon.png" type="image/png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.22.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0"></script>
+</head>
+<body>
+    <midi-player src="sounds/bg.mid" sound-font></midi-player>
+    <div class="container">
+        <!-- <div id="balloons" class="animation"></div> -->
+        <div id="gifts" class="animation"></div>
+        <h1 class="message">FELIZ CUMPLEAÑOS!!!</h1>
+        <h1 class="prem">TU PREMIO ES!!!!!</h1>
+        
+        <div class="lottery">
+            <h1 class="premio"></h1>
+        </div>
+        <button class="button" onclick="spinLottery()">Girar la ruleta</button>
+    </div>
+
+    <script src="js/balloons.js"></script>
+    <script src="js/changeColors.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
