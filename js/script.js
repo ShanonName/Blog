@@ -22,6 +22,7 @@ function spinLottery() {
     enable = false;
     playSpinSound();
 
+    player.currentTime = 0
     if (player.playing == false) player.playButton.click();
 
     var premioOptions = ["AMOR????", "1 Millon de pesos", "1 Millon de dolares!!", "Una Moto", "Tabla de surf", "Un buen hijo", "Empleado trabajador", "reporte core v3?", "Infobae", "Hola ns que mas poner", "Feliz cumpleanos", "Una xbox series x", "Iphone 15 pro max", "Help", "idk"]; // Opciones de premio
